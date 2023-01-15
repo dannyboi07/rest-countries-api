@@ -1,0 +1,31 @@
+.country_card {
+  max-width: 300px;
+  background-color: var(--col-dark-blue);
+  border-radius: 50%;
+  overflow: hidden;
+  transform: scale(0);
+  transition: transform 0.25s, border-radius 0.25s;
+}
+.country_card__top, .country_card__bottom {
+  height: 50%;
+}
+.country_card__bottom {
+  padding: 1.5em;
+}
+.country_card__bottom__header {
+  margin: 0.25em 0;
+  font-weight: 800;
+}
+.country_card__bottom__details {
+  margin: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.15em;
+}
+.country_card__bottom__details__field {
+  font-weight: 600;
+}
+.country_card__loaded {
+  transform: scale(1);
+  border-radius: 0.5em;
+}/*# sourceMappingURL=country.module.css.map */
